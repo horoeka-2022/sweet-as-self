@@ -26,9 +26,13 @@ function ProductList({ children }) {
     <div className="productlist">
       <div className="welcome">
         <p>
-          Welcome! Please choose from our delicious selection and don&apos;t
-          hesitate to let us know if we can answer any of your questions.
-        </p>
+Founded in 2022
+Sweet as Self is a pay what you can model
+Is a not for profit organisation providing “world class” wonderful self care workshops 
+Our eco system is a giving one, of skill sharing and donation. 
+Got a class you would like to share with the community, get in touch about gifting your time today info@sweetasself.co.nz
+Have a nominal amount of money you would like to donate, book into one of our gratitude based classes today
+</p>
       </div>
       {children} {/* This holds the WaitIndicator (from App) */}
       {products.map((product) => {
