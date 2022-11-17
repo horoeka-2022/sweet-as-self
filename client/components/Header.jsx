@@ -9,10 +9,11 @@ function Header() {
         <Link to="/cart">Cart</Link>
         <Link to="/orders">My Classes</Link>
       </nav>
-      <h1>
-        <span className="fa fa-leaf" aria-hidden="true" /> Sweet As Self{' '}
-        <span className="fa fa-leaf" aria-hidden="true" />
-      </h1>
+      <img
+        className="logo"
+        src="/imgs/Images/logo2.png"
+        alt="Sweet as self logo"
+      />
     </>
   )
 }
