@@ -28,7 +28,7 @@ function ProductList({ children }) {
         <p>
 Founded in 2022
 Sweet as Self is a pay what you can model
-Is a not for profit organisation providing “world class” wonderful self care workshops 
+Is a not for profit organisation providing wonderful self care workshops 
 Our eco system is a giving one, of skill sharing and donation. 
 Got a class you would like to share with the community, get in touch about gifting your time today info@sweetasself.co.nz
 Have a nominal amount of money you would like to donate, book into one of our gratitude based classes today
