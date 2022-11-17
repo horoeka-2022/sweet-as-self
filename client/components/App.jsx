@@ -7,6 +7,7 @@ import Cart from './Cart'
 import ProductList from './ProductList'
 import OrderList from './OrderList'
 import WaitIndicator from './WaitIndicator'
+import ClassList from './ClassList'
 
 function App() {
   return (
@@ -17,9 +18,12 @@ function App() {
         <Route
           path="/"
           element={
-            <ProductList>
-              <WaitIndicator />
-            </ProductList>
+            <>
+              <ProductList>
+                <WaitIndicator />
+              </ProductList>
+              <ClassList />
+            </>
           }
         />
         <Route
