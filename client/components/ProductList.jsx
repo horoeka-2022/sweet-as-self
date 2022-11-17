@@ -36,15 +36,17 @@ function ProductList({ children }) {
         </p>
       </div>
       {children} {/* This holds the WaitIndicator (from App) */}
-      {products.map((product) => {
-        return (
-          <ProductListItem
-          // key={product.id}
-          // product={product}
-          // addToCart={addProductToCart}
-          />
-        )
-      })}
+      <div className="class-container">
+        {products.map((product) => {
+          return (
+            <ProductListItem
+              key={product.id}
+              product={product}
+              addToCart={addProductToCart}
+            />
+          )
+        })}
+      </div>
     </div>
   )
 }
