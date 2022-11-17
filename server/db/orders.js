@@ -89,7 +89,7 @@ function findOrderById(id, db = connection) {
       'quantity',
       'created_at as createdAt',
       'status',
-      'name'
+      'offering'
     )
     .where('orders.id', id)
     .then(formatOrder)

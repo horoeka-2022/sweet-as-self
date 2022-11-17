@@ -18,8 +18,8 @@ function Order(props) {
 
   return (
     <div className="order">
-      <p className="name">Order #{id}</p>
-      <p className="order-details">Order placed: {createdAt}</p>
+      <p className="offering">Offering #{id}</p>
+      <p className="order-details">Offering confirmed: {createdAt}</p>
       <p className="order-details">
         <span className={`fa fa-circle ${status}`} aria-hidden="true"></span>
         Status: {status}
@@ -27,7 +27,7 @@ function Order(props) {
       <table>
         <thead>
           <tr>
-            <td role="columnheader">Product</td>
+            <td role="columnheader">Class</td>
             <td role="columnheader">Quantity</td>
           </tr>
         </thead>
@@ -41,13 +41,13 @@ function Order(props) {
         {status === 'pending' && (
           <>
             <button onClick={cancelOrder} className="order-button">
-              Cancel Order
+              Cancel class
             </button>
             <button
               onClick={completeOrder}
               className="order-button button-primary"
             >
-              Order Received
+              Offering request recieved 
             </button>
           </>
         )}
