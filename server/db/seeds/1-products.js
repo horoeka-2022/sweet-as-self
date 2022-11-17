@@ -4,11 +4,11 @@ exports.seed = (knex) => {
     {
       id: 1,
         offering: 'Yoga',
-        description: "Flow into nourishing postures. Breathe new life into your body. Get ready, now pose! Learn how to use breathe and alignment to truly ground yourself. This is an open class which is suited to all levels. ",
+        description: "Flow into nourishing postures. Breathe new life into your body. Get ready, now pose! Learn how to use breathe and alignment to ground yourself. This is an open class which is suited to all levels. ",
         teacher: 'Helena',
         image: 'Imges/Images/yoga.png',
         time: '11:00AM',
-        date:'11/11/2022', 
+        date:'11/12/2022', 
         location: 'Enspiral Dev Academy',
     },
     {
@@ -18,8 +18,8 @@ exports.seed = (knex) => {
         teacher: 'Johnny', 
         image: 'Imges/Images/dance.png',
         time: '11:00PM',
-        date: '09/09/2022',
-        country: 'Enspiral Dev Academy',
+        date: '30/11/2022',
+        location: 'Enspiral Dev Academy',
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ exports.seed = (knex) => {
         image:'Imges/Images/theatre.png',
         time: '10:00AM',
         date:'12/12/2022',
-        country: 'Enspiral Dev Academy',
+        location: 'Enspiral Dev Academy',
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ exports.seed = (knex) => {
         image:'Imges/Images/meditation.png',
         time: '09:00AM',
         date:'10/12/2022',
-        country: 'Enspiral Dev Academy',
+        location: 'Enspiral Dev Academy',
     },
     {
       id: 5,
@@ -51,18 +51,18 @@ exports.seed = (knex) => {
         image:'Imges/Images/cooking.png',
         time: '05:00PM',
         date:'09/12/2022',
-        country: 'Enspiral Dev Academy',
+        location: 'Enspiral Dev Academy',
     },
     {
       id: 6,
         offering: 'Journaling',
         description:
-        "Observe not absorb, go on write about it. Articulate your thoughts and feelings. Let's reflect together on where we are, regardless of age, stage or phase. All humans welcome.",
+        "Observe not absorb, go on write about it. Articulate your thoughts and feelings. Let's reflect together on where we are, regardless of age, stage or phase. All welcome.",
         teacher:'Ana',
         image:'Imges/Images/journaling.png',
         time: '09:30AM',
         date:'28/11/2022',
-        country: 'Enspiral Dev Academy',
+        location: 'Enspiral Dev Academy',
     },
     {
       id: 7,
@@ -72,8 +72,8 @@ exports.seed = (knex) => {
         teacher:'Alex',
         image:'Imges/Images/watercolor.png',
         time: '01:00PM',
-        date:'229/112022',
-        country: 'Enspiral Dev Academy',
+        date:'29/11/2022',
+        location: 'Enspiral Dev Academy',
     },
   ])
 }
