@@ -14,12 +14,15 @@ function ProductListItem(props) {
         <p className="name">{product.offering}</p>
         <p className="description">{product.description}</p>
 
-        <p>
-          <span className="country">Location: {product.location}</span>
+        <div>
+          <p className="country">Teacher: {product.teacher}</p>
+          <p className="country">Location: {product.location}</p>
+          <p className="country">Date: {product.date}</p>
+          <p className="country">Time: {product.time}</p>
           <button className="cart-link" onClick={addToCart}>
             BOOK
           </button>
-        </p>
+        </div>
       </div>
 
       {/* <div className="class">
