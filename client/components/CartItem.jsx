@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import { deleteFromCart, updateCart } from '../slices/cart'
 
 function CartItem(props) {
-  const { name, id, quantity } = props.item
+  const { offering, id, quantity } = props.item
   const dispatch = useDispatch()
 
   function update(e) {
@@ -23,7 +23,7 @@ function CartItem(props) {
   const displayQuantity = quantity === 0 ? '' : quantity
   return (
     <tr>
-      <td>{name}</td>
+      <td>{offering}</td>
       <td>
         <input
           aria-label="quantity"

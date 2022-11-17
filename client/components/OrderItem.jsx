@@ -1,10 +1,10 @@
 import React from 'react'
 
 function OrderItem(props) {
-  const { name, quantity } = props.product
+  const { offering, quantity } = props.product
   return (
     <tr>
-      <td>{name}</td>
+      <td>{offering}</td>
       <td>{quantity}</td>
     </tr>
   )

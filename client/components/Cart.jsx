@@ -36,18 +36,18 @@ function Cart(props) {
         </tbody>
       </table>
       <p className="actions">
-        <Link to="/">Continue shopping</Link>
+        <Link to="/">Look for more classes</Link>
         <span>
           {children} {/* Holds the WaitIndicator */}
           <button className="button-primary" onClick={submitCart}>
-            Place Order
+            Make Donation
           </button>
         </span>
       </p>
     </div>
   ) : (
     <p>
-      Your cart is empty! Start shopping <Link to="/">here</Link>
+      Your cart is empty! Start a journey!<Link to="/">here</Link>
     </p>
   )
 }

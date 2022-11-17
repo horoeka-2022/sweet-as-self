@@ -16,8 +16,8 @@ function ProductList({ children }) {
   }, [])
 
   function addProductToCart(product) {
-    const { id, name } = product
-    const newCartItem = { id, name }
+    const { id, offering } = product
+    const newCartItem = { id, offering }
     dispatch(addToCart(newCartItem))
     navigate('/cart')
   }
