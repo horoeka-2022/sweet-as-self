@@ -10,6 +10,7 @@ function ProductListItem(props) {
   return (
     <>
       <div className="product">
+        <img src={product.image} alt="class icon" />
         <p className="name">{product.offering}</p>
         <p className="description">{product.description}</p>
 
