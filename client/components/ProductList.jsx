@@ -26,9 +26,8 @@ function ProductList({ children }) {
     <div className="productlist">
       <div className="welcome">
         <p>
-Founded in 2022
-Sweet as Self is a pay what you can model
-Is a not for profit organisation providing wonderful self care workshops 
+Sweet as Self is a not for profit organisation providing wonderful self care workshops. We believe in welbeing for all.
+Founded in 2022 we follow a pay what you can model
 Our eco system is a giving one, of skill sharing and donation. 
 Got a class you would like to share with the community, get in touch about gifting your time today info@sweetasself.co.nz
 Have a nominal amount of money you would like to donate, book into one of our gratitude based classes today
