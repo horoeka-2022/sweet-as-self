@@ -9,21 +9,22 @@ function ProductListItem(props) {
 
   return (
     <>
-      {/* <div className="product">
+      <div className="product">
         <p className="name">{product.offering}</p>
         <p className="description">{product.description}</p>
+
         <p>
-          <span className="country">Lovingly made in {product.location}</span>
+          <span className="country">Location: {product.location}</span>
           <button className="cart-link" onClick={addToCart}>
-            Add to cart
+            BOOK
           </button>
         </p>
-      </div> */}
+      </div>
 
-      <div className="class">
+      {/* <div className="class">
         <img src="/imgs/Images/cooking.png" alt="Cooking class" />
         <p>hello</p>
-      </div>
+      </div> */}
     </>
   )
 }
