@@ -26,7 +26,7 @@ function ProductList({ children }) {
     <div className="productlist">
       <div className="welcome">
         <p>
-Sweet as Self is a not for profit organisation providing wonderful self care workshops. We believe in welbeing for all.
+Sweet as Self is a not for profit organisation providing wonderful self care workshops. We believe in wellbeing for all.
 Founded in 2022 we follow a pay what you can model
 Our eco system is a giving one, of skill sharing and donation. 
 Got a class you would like to share with the community, get in touch about gifting your time today info@sweetasself.co.nz
