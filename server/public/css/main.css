@@ -38,8 +38,13 @@ h1 {
   margin: 0 15px;
   color: RGB(127, 89, 55);
   text-decoration: none;
-  
+  transition: 0.2 linear;
 }
+
+.nav a:hover {
+  color: #ee9a9a;
+}
+
 
 .welcome {
   display: flex;
