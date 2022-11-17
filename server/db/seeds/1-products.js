@@ -4,7 +4,7 @@ exports.seed = (knex) => {
     {
       id: 1,
         offering: 'Yoga',
-        description: "Flow into nourishing postures. Breathe new life into your body. Get ready, now pose! Learn how to use breathe and alignment to truly ground yourself. This is an open class which is open to all levels. ",
+        description: "Flow into nourishing postures. Breathe new life into your body. Get ready, now pose! Learn how to use breathe and alignment to truly ground yourself. This is an open class which is suited to all levels. ",
         teacher: 'Helena',
         image: 'Imges/Images/yoga.png',
         time: '11:00AM',
@@ -14,7 +14,7 @@ exports.seed = (knex) => {
     {
       id: 2,
         offering: 'Dance',
-        description:  "Dont take off your dancing shoes, theres more than one thing on your mind. The most pertinenet being this jiving workshop! I wana see all you componenets and slices on the d floor with Johnny Tucci. We will laugh, sweat and (happy) cry. Lets feel the rhythm! Move your body!",
+        description:  "Dont take off your dancing shoes, theres more than one thing on your mind. The most pertinenet being this jiving workshop! I wana see all you componenets and slices on the d floor. We will laugh, sweat and (happy) cry. Lets feel the rhythm! Move your body!",
         teacher: 'Johnny', 
         image: 'Imges/Images/dance.png',
         time: '11:00PM',
@@ -24,7 +24,7 @@ exports.seed = (knex) => {
     {
       id: 3,
         offering: 'Voice',
-        description: "Join Rich for an expiremtal workshop in intuitive voice. Breathe from your diaphram, unearth the voice inside you. Content warning: may contain riddles",
+        description: "Join Rich for an expiremtal workshop in intuitive voice. Breathe from your diaphram and unearth the voice inside you. Content warning: may contain riddles",
         teacher:'Rich',
         image:'Imges/Images/theatre.png',
         time: '10:00AM',
@@ -35,7 +35,7 @@ exports.seed = (knex) => {
       id: 4,
         offering: 'Meditation',
         description:
-        "Get in touch with your silent self, how does your soul sit in stilness, where can we wander in the breath of life?",
+        "Get in touch with your silent self, how does your soul sit in stillness, where can we wander in the breath of life? In this safe space, let us practise body scan, box breathing with the aid of our handy dandy clock.",
         teacher:'Ahmad',
         image:'Imges/Images/meditation.png',
         time: '09:00AM',
@@ -46,7 +46,7 @@ exports.seed = (knex) => {
       id: 5,
         offering: 'Cooking',
         description:
-        "Nourish your body, nourish your mind. Get out those pots and pans, we are firing up the elements. Cool, calm and collected Clem will teach you the ways of the kitchen in this immersive experience.",
+        "Nourish your body, nourish your mind. Get out those pots and pans, we are firing up the elements. Cool, calm and collected Clem will teach you the ways of the kitchen in this immersive culinary experience.",
         teacher:'Clementine',
         image:'Imges/Images/cooking.png',
         time: '05:00PM',
@@ -57,7 +57,7 @@ exports.seed = (knex) => {
       id: 6,
         offering: 'Journaling',
         description:
-        "Observe not absorb, go on write about it. Articulate your thoughts and feelings. ",
+        "Observe not absorb, go on write about it. Articulate your thoughts and feelings. Let's reflect together on where we are, regardless of age, stage or phase. All humans welcome.",
         teacher:'Ana',
         image:'Imges/Images/journaling.png',
         time: '09:30AM',
@@ -66,13 +66,13 @@ exports.seed = (knex) => {
     },
     {
       id: 7,
-        offering: '',
+        offering: 'Watercolour',
         description:
-        "",
+        "Unleash your creative magic in an hour long watercolour extravaganza. Engage in the art of tone and composition. Enhance your skills in painting with watercolour. Each student will come away with their own small scale artwork.",
         teacher:'Alex',
-        image:'Imges/Images/.png',
-        time: '0AM',
-        date:'2022',
+        image:'Imges/Images/watercolor.png',
+        time: '01:00PM',
+        date:'229/112022',
         country: 'Enspiral Dev Academy',
     },
   ])
