@@ -10,7 +10,11 @@ function ProductListItem(props) {
   return (
     <>
       <div className="product">
-        <img src={product.image} alt="class icon" />
+        <div
+          className="class-img-container"
+          style={{ backgroundImage: `url(${product.image})` }}
+        ></div>
+        {/* <img className="class-img" src={product.image} alt="class icon" /> */}
         <p className="name">{product.offering}</p>
         <p className="description">{product.description}</p>
 

@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Questrial', sans-serif;
   width: 75%;
@@ -7,6 +13,27 @@ body {
 
 h1 {
   margin-top: 15px;
+}
+
+/* .class-img-container {
+  background-image: url();
+} */
+
+.introduction {
+  font-size: 17px;
+  text-shadow: 1px 1px #ee9a9a;
+}
+
+.class-img {
+  width: 30%;
+}
+
+.class-img-container {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  margin: 0 auto;
+  background: center/cover;
 }
 
 .error {
@@ -48,13 +75,14 @@ h1 {
 }
 
 .class {
-  flex-basis: 40%;
+  flex-basis: 45%;
 }
 
 .class-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  justify-content: space-between;
+  gap: 5%;
 }
 
 
@@ -74,8 +102,8 @@ h1 {
 }
 
 .product {
-
-  flex: 1 1 40%;
+  margin-bottom: 50px;
+  flex: 0 1 45%;
 }
 
 .product p, .order p {
