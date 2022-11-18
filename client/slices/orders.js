@@ -1,5 +1,4 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
-import { async } from 'regenerator-runtime'
 
 import { postOrders, getOrders, patchOrderStatus } from '../api/orders'
 
