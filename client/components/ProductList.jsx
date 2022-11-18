@@ -25,7 +25,7 @@ function ProductList({ children }) {
   return (
     <div className="productlist">
       <div className="welcome">
-        <p>
+        <p className="introduction">
           Sweet as Self is a not for profit organisation providing wonderful
           self care workshops. We believe in wellbeing for all. Founded in 2022
           we follow a pay what you can model Our eco system is a giving one, of
