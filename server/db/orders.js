@@ -96,8 +96,13 @@ function findOrderById(id, db = connection) {
 
 function getOrders(db = connection) {
   return db('orders_products')
-    .join('orders', 'orders.id')
-    .join('products', 'products.id')
-    .select('products.id as productId', 'orders.id as orderId', 'offering')
-    .then(formatOrder)
+    .join('orders', 'orders_products.order_id', 'orders.id')
+    .join('products', 'orders_products.product_id', 'products.id')
+    .select(
+      'products.id as productId',
+      'orders.id as orderId',
+      'quantity',
+      'offering'
+    )
+    .then(formatOrderList)
 }
