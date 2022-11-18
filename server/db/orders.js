@@ -6,6 +6,7 @@ module.exports = {
   listOrders,
   addOrder,
   editOrderStatus,
+  getOrders,
 }
 
 function listOrders(db = connection) {
@@ -86,11 +87,17 @@ function findOrderById(id, db = connection) {
     .select(
       'products.id as productId',
       'orders.id as orderId',
-      'quantity',
-      'created_at as createdAt',
       'status',
       'offering'
     )
     .where('orders.id', id)
+    .then(formatOrder)
+}
+
+function getOrders(db = connection) {
+  return db('orders_products')
+    .join('orders', 'orders.id')
+    .join('products', 'products.id')
+    .select('products.id as productId', 'orders.id as orderId', 'offering')
     .then(formatOrder)
 }

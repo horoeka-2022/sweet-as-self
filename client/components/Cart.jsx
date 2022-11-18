@@ -13,6 +13,7 @@ function Cart(props) {
   const cart = useSelector((state) => state.cart)
 
   function submitCart() {
+    alert('Thanks for your donation!')
     dispatch(placeOrder(cart))
     navigate('/')
 
@@ -24,12 +25,8 @@ function Cart(props) {
       <table>
         <thead>
           <tr>
-
             <td role="columnheader">Class</td>
-            <td role="columnheader">Quantity</td>
-            <td role="columnheader">Product</td>
             <td role="columnheader">Donation $</td>
-
             <td role="columnheader">Remove</td>
           </tr>
         </thead>
