@@ -47,8 +47,9 @@ function Cart(props) {
       </p>
     </div>
   ) : (
-    <p>
-      Your cart is empty! Start a journey!<Link to="/">here</Link>
+    <p className="thanksMessage">
+      Support your community and yourself <br />
+      <Link to="/">here</Link>
     </p>
   )
 }

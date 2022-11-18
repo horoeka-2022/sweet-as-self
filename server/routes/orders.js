@@ -24,7 +24,7 @@ router.post('/', (req, res) => {
 //       return null
 //     })
 //     .catch((err) => {
-//       res.sendStatus(500).send('DATABASE ERROR: ' + err.message)
+//       res.status(500).send('DATABASE ERROR: ' + err.message)
 //     })
 // })
 
