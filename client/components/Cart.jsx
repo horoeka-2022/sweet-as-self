@@ -25,7 +25,7 @@ function Cart(props) {
         <thead>
           <tr>
             <td role="columnheader">Product</td>
-            <td role="columnheader">Quantity</td>
+            <td role="columnheader">Donation $</td>
             <td role="columnheader">Remove</td>
           </tr>
         </thead>
