@@ -5,7 +5,7 @@ import { updateOrderStatus } from '../slices/orders'
 import OrderItem from './OrderItem'
 
 function Order(props) {
-  const { id, products, createdAt, status } = props.order
+  const { id, products } = props.order
   const dispatch = useDispatch()
 
   function cancelOrder() {
@@ -19,21 +19,19 @@ function Order(props) {
   return (
     <div className="order">
       <p className="offering">Offering #{id}</p>
-      <p className="order-details">Offering confirmed: {createdAt}</p>
-      <p className="order-details">
-        <span className={`fa fa-circle ${status}`} aria-hidden="true"></span>
-        Status: {status}
-      </p>
+      <p className="order-details">Offering confirmed</p>
+      <p className="order-details"></p>
       <table>
         <thead>
           <tr>
             <td role="columnheader">Class</td>
-            <td role="columnheader">Quantity</td>
+            <td role="columnheader">Donation Amount</td>
           </tr>
         </thead>
         <tbody>
-          {products.map((item) => {
-            return <OrderItem key={item.id} product={item} />
+          {products.map((product) => {
+            console.log('here', product)
+            return <OrderItem key={product.id} product={product} />
           })}
         </tbody>
       </table>
@@ -47,7 +45,7 @@ function Order(props) {
               onClick={completeOrder}
               className="order-button button-primary"
             >
-              Offering request recieved 
+              Offering request recieved
             </button>
           </>
         )}

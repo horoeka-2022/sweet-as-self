@@ -12,6 +12,10 @@ function OrderList({ children }) {
   }, [])
   return (
     <div className="orderlist">
+      <p className="thanksMessage">
+        Thank you for supporting our not for profit organisation. <br />" I
+        choose to be kind to myself. "
+      </p>
       {children} {/* Holds the WaitIndicator */}
       {orders?.map((order) => {
         return <Order key={order.id} order={order} />

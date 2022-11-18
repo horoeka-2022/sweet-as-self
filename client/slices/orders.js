@@ -12,7 +12,9 @@ export const placeOrder = createAsyncThunk(
 export const fetchOrders = createAsyncThunk(
   'getOrders/fetchOrders',
   async () => {
-    return await getOrders()
+    const data = await getOrders()
+    console.log(data)
+    return data
   }
 )
 

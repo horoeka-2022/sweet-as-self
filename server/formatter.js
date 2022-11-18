@@ -22,6 +22,7 @@ function createProduct(orderLine) {
     id: orderLine.productId,
     name: orderLine.name,
     quantity: orderLine.quantity,
+    offering: orderLine.offering,
   }
 }
 
